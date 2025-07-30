@@ -437,6 +437,7 @@ const SubAdminIssueManagement: React.FC = () => {
             size="sm"
             onClick={() => setViewingIssue(issue)}
             title={t.actions.viewDetails}
+            className="bg-blue-800 hover:bg-blue-200 text-blue-800"
           >
             <Eye className="w-4 h-4" />
           </Button>
